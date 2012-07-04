@@ -1,0 +1,11 @@
+{
+    "paths": {
+        ".":  "./mochasetup"
+    },
+    "shim": {
+        ".": {
+            "exports": "mocha",
+            "deps": ["expect"]
+        }
+    }
+}

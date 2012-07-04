@@ -17,9 +17,14 @@
     , "jade": "0.20.3"
     , "diff": "1.0.2"
     , "debug": "*"
+    , "expect.js": "0.1.x"
   }
   , "devDependencies": {
       "should": "*"
     , "coffee-script": "1.2"
+  }
+  , "component": {
+      "name": "mocha"
+    , "sourceDirectory": "."
   }
 }
